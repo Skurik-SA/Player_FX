@@ -1,0 +1,44 @@
+
+.slider {
+    -webkit-appearance: none;
+    -fx-fill-width: 100%;
+    /*-fx-fill-height: 25px;*/
+    -fx-background-color: #d3d3d3;
+    -fx-underline: none;
+    -fx-opacity: 0.7;
+    -fx-cursor: pointer;
+}
+
+.slider > .track {
+    -fx-background-color: #6583ec;
+    -fx-cursor: pointer;
+}
+
+/* Styling the slider thumb */
+.slider > .thumb {
+    -fx-fill-width: 25px;
+    -fx-fill-height: 25px;
+    -fx-background-color: #4CAF50;
+    -fx-cursor: pointer;
+}
+
+.slider:hover {
+    -fx-opacity: 20;
+    -fx-cursor: pointer;
+}
+
+/* Styling the filled track */
+.slider > .colored-track {
+    -fx-background-color: green;
+}
+
+/* Styling the animated thumb */
+.slider > .animated-thumb {
+    -fx-background-color: green;
+}
+
+/* Styling the slider value text inside animated thumb */
+.slider .slider-value {
+    -fx-fill: white;
+    -fx-stroke: white;
+}
